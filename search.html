@@ -14,11 +14,16 @@
       
       
       
-      <form action= "http://www.google.com/" target="safe" method= "GET"> 
+      <form action= "http://www.google.com/" target="_blank" method= "GET"> 
                
-
-            <input type="?q=as_sitesearch=" name ="Search" id="Search" placeholder="Your Search"> 
-            <input type= "submit" value="submit">
+         <label for="search box"> Search </label> 
+         <input type="text" name="q" id="search box"> 
+         <select name="as_sitesearch" id ="site">
+            <option value> ----GOOGLE---</option> 
+         </select> 
+         
+         <input type ="submit" value="Search"> 
+         
          
       </form> 
       
