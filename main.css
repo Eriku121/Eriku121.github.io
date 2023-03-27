@@ -1,7 +1,7 @@
 h1
 {
   font-family: Times-New Roman; 
-  font-size: 40px;
+  font-size: 50px;
   Margin-Left: 50px; 
   text-decoration: underline; 
 } 
@@ -9,7 +9,7 @@ h1
 h2,h3,h4,h5
 {
   font-family: Times-New Roman; 
-  font-size: 35px; 
+  font-size: 40px; 
   Margin-Left: 50px; 
   
 }
@@ -21,7 +21,7 @@ body
 p 
 {
   font-family: Arial; 
-  font size: 35px ;
+  font size: 30px ;
   Margin-Left :50px; 
 } 
 img
