@@ -11,15 +11,15 @@ h1
 {
   font-family: Times-New Roman; 
   font-size: 50px;
-  Margin-Right: 300px; 
-  text-decoration: underline; 
+  text-align: center; 
+   
 } 
 
 h2,h3,h4,h5
 {
   font-family: Times-New Roman; 
   font-size: 40px; 
-  Margin-Right: 300px; 
+  text-align: center; 
   
 }
 
