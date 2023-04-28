@@ -1,4 +1,10 @@
 
+
+body
+{
+  background-color: Grey; 
+}
+
 @media only screen and (max-width: 600px) { 
 
 
@@ -19,10 +25,7 @@ h2,h3,h4,h5
   text-decoration: underline; 
   
 }
-body
-{
-  background-color: Grey; 
-}
+
 
 p 
 {
