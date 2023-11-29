@@ -3,7 +3,16 @@
 body
 {
   background-color: Grey; 
+  displat: flex; 
+  align-items: center; 
+  height: 100vh;
+  margin: 0; 
+  
 }
+
+  .centered-text{ 
+    text-align: center; 
+  } 
 
 @media only screen and (max-width: 600px) { 
 
