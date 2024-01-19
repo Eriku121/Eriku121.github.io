@@ -1,51 +1,41 @@
-
-body
-{
-  background-color: #FFFDD0; 
+body {
+  background-color: #FFFDD0;
   color: #333;
   display: flex;
-  min-height: 100vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   margin: 0;
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-family: Times-New Roman;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-left: 0; /* Updated property name to lowercase */
+  }
 
+  h2, h3, h4, h5 {
+    font-family: Times-New Roman;
+    font-size: 40px;
+    margin-left: 0; /* Updated property name to lowercase */
+  }
 
+  p {
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 0; /* Updated property name to lowercase */
+  }
 
-h1
-{
-  font-family: Times-New Roman; 
-  font-size: 50px;
-  Margin-Left: 50px; 
-  text-decoration: underline; 
-} 
-
-h2,h3,h4,h5
-{
-  font-family: Times-New Roman; 
-  font-size: 40px; 
-  Margin-Left: 50px; 
-  
+  img {
+    padding: 5px;
+  }
 }
 
-
-p 
-{
-  font-family: Arial; 
-  font size: 30px ;
-  Margin-Left :50px; 
-} 
-img
-{
-  padding: 5px; 
+.popup {
+  display: none;
 }
 
-} 
-
-.popup{ 
-  display: none; 
-} 
-  
   
