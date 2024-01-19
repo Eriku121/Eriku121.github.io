@@ -1,7 +1,8 @@
 
 body
 {
-  background-color: Grey; 
+  background-color: #FFFDD0; 
+  color: #333;
 }
 
 @media only screen and (max-width: 600px) { 
