@@ -14,11 +14,13 @@ body {
 }
 
 @keyframes changeBackground { 
-  0%
-  
+  0% { background-image: url(images/UNC-1.jpg);}
+  33.33% { background-image: url(images/UNC-2.jpg);}
+  66.66% { background-image: url(images/UNC-3.jpg);}
+  100% { background-image: url(images/UNC-4.jpg);} 
   
 }
-  
+
 
 
 @media only screen and (max-width: 600px) {
