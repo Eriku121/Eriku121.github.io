@@ -1,36 +1,25 @@
 body {
   background-color: #D3D3D3 ;
   color: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
   h1 {
-    font-family: Times-New Roman;
-    font-size: 50px;
-    text-decoration: underline;
-    margin-left: 0; 
+    font-size: 40px;
   }
 
   h2, h3, h4, h5 {
-    font-family: Times-New Roman;
-    font-size: 40px;
-    margin-left: 0; 
+    font-size: 30px;
   }
 
   p {
-    font-family: Arial;
-    font-size: 30px;
-    margin-left: 0;
+    font-size: 20px;
   }
 
   img {
-    padding: 5px;
+    max-width: 100%; 
+    height: auto; 
   }
 }
 
