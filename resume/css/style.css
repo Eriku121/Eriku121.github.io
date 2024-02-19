@@ -3,10 +3,12 @@ body {
   color: #333;
   margin: 0;
   font-family: Arial, sans-serif; 
+}
+
+.background-container { 
   display: flex; 
   align-items: center; 
   height: 100vh; 
-
   animation: changeBackground 10s infinite;
   background-size: cover; 
   background-position: center;
