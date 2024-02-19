@@ -2,7 +2,24 @@ body {
   background-color: #D3D3D3 ;
   color: #333;
   margin: 0;
+  font-family: Arial, sans-serif; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+
+  animation: changeBackground 10s infinite;
+  background-size: cover; 
+  background-position: center;
 }
+
+@keyframes changeBackground { 
+  0%
+  
+  
+}
+  
+
 
 @media only screen and (max-width: 600px) {
   h1 {
