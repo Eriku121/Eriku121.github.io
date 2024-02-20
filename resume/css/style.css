@@ -6,7 +6,6 @@ body {
 }
 
 .background-container { 
-  display: flex; 
   height: 100vh; 
   animation: changeBackground 10s infinite;
   background-size: cover; 
