@@ -9,7 +9,6 @@ body {
   height: 100vh; 
   animation: changeBackground 10s infinite;
   background-size: cover; 
-  background-position: center;
 }
 
 @keyframes changeBackground { 
