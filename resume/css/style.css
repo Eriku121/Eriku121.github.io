@@ -5,33 +5,35 @@ body {
 }
 
 body {
-  background-color: #f7f7f7; 
-  color: #333; 
+  background-color: #f7f7f7;
+  color: #333;
   font-family: Arial, sans-serif;
 }
 
 .container {
-  max-width: 960px; 
-  margin: 0 auto; 
-  padding: 20px; 
+  max-width: 960px;
+  margin: 0 auto;
+  margin-left: 20px; /* Added left margin */
+  padding: 20px;
 }
 
 h1 {
-  font-size: 32px; 
+  font-size: 32px;
 }
 
 h2 {
-  font-size: 24px; 
+  font-size: 24px;
 }
 
 p {
-  font-size: 16px; 
-  line-height: 1.5; 
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 600px) {
   .container {
-    padding: 10px; 
+    padding: 10px;
+    margin-left: 10px; /* Smaller left margin for smaller screens */
   }
 
   h1 {
@@ -39,14 +41,13 @@ p {
   }
 
   h2 {
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   p {
-    font-size: 14px; 
+    font-size: 14px;
   }
- 
-
+}
 
 .popup {
   display: none;
@@ -60,4 +61,5 @@ p {
   padding: 20px;
   z-index: 999;
 }
+
 
